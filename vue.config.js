@@ -13,7 +13,7 @@ module.exports = defineConfig({
   //     : "/",
   publicPath: "/mtt/",
   //打包时输出文件目录
-  outputDir: "dist",
+  outputDir: "docs",
   // //可写可不写，写的话js,css等文件会存在这个文件夹里面,放置静态文件夹目录
   // assetsDir: "static",
 });
