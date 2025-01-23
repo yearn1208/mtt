@@ -1,0 +1,22 @@
+.table-wrap {
+    height: 100%;
+    // width: max-content;
+    max-width: 100%;
+    &-dropdown {
+        margin-left: 10px;
+    }
+    .custom-table {
+        width: 100%;
+    }
+}
+.v-pager {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.el-dropdown-link {
+    cursor: pointer;
+    color: #9dc4e9;
+    font-size: 12px;
+}
+
