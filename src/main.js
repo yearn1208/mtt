@@ -8,6 +8,7 @@ import VueSignaturePad from 'vue-signature-pad'
 import router from './router/index'
 import "vue-virtual-scroller/dist/vue-virtual-scroller.css" // 引入它的 css
 import selLoadMore from './directive/sel-loadmore/loadmore'
+import '@/assets/font/font.css'
 
 Vue.use(ElementUi)
 Vue.use(VueSignaturePad)

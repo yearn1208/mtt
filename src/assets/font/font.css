@@ -1,0 +1,162 @@
+/* 
+*
+**  Montserrat :英文字体
+**  OPPOSans :中文字体
+ */
+/* Montserrat-Medium */
+@font-face {
+    font-family: "M-Black";
+    src: url("./Montserrat/Montserrat-Black.ttf");
+    font-display: swap;
+  }
+/* Montserrat-BlackItalic */
+@font-face {
+    font-family: "M-BlackItalic";
+    src: url("./Montserrat/Montserrat-BlackItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-Bold */
+@font-face {
+    font-family: "M-Bold";
+    src: url("./Montserrat/Montserrat-Bold.ttf");
+    font-display: swap;
+  }
+/* Montserrat-BoldItalic */
+@font-face {
+    font-family: "M-BoldItalic";
+    src: url("./Montserrat/Montserrat-BoldItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-ExtraBold */
+@font-face {
+    font-family: "M-ExtraBold";
+    src: url("./Montserrat/Montserrat-ExtraBold.ttf");
+    font-display: swap;
+  }
+/* Montserrat-ExtraBoldItalic */
+@font-face {
+    font-family: "M-ExtraBoldItalic";
+    src: url("./Montserrat/Montserrat-ExtraBoldItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-ExtraLight */
+@font-face {
+    font-family: "M-ExtraLight";
+    src: url("./Montserrat/Montserrat-ExtraLight.ttf");
+    font-display: swap;
+  }
+/* Montserrat-ExtraLightItalic */
+@font-face {
+    font-family: "M-ExtraLightItalic";
+    src: url("./Montserrat/Montserrat-ExtraLightItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-Italic */
+@font-face {
+    font-family: "M-Italic";
+    src: url("./Montserrat/Montserrat-Italic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-Light */
+@font-face {
+    font-family: "M-Light";
+    src: url("./Montserrat/Montserrat-Light.ttf");
+    font-display: swap;
+  }
+/* Montserrat-LightItalic */
+@font-face {
+    font-family: "M-LightItalic";
+    src: url("./Montserrat/Montserrat-LightItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-Medium */
+@font-face {
+    font-family: "M-Medium";
+    src: url("./Montserrat/Montserrat-Medium.ttf");
+    font-display: swap;
+  }
+/* Montserrat-MediumItalic */
+@font-face {
+    font-family: "M-MediumItalic";
+    src: url("./Montserrat/Montserrat-MediumItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-Regular */
+@font-face {
+    font-family: "M-Regular";
+    src: url("./Montserrat/Montserrat-Regular.ttf");
+    font-display: swap;
+  }
+/* Montserrat-SemiBold */
+@font-face {
+    font-family: "M-SemiBold";
+    src: url("./Montserrat/Montserrat-SemiBold.ttf");
+    font-display: swap;
+  }
+/* Montserrat-SemiBoldItalic */
+@font-face {
+    font-family: "M-SemiBoldItalic";
+    src: url("./Montserrat/Montserrat-SemiBoldItalic.ttf");
+    font-display: swap;
+  }
+/* Montserrat-Thin */
+@font-face {
+    font-family: "M-Thin";
+    src: url("./Montserrat/Montserrat-Thin.ttf");
+    font-display: swap;
+  }
+/* Montserrat-ThinItalic */
+@font-face {
+    font-family: "M-ThinItalic";
+    src: url("./Montserrat/Montserrat-ThinItalic.ttf");
+    font-display: swap;
+  }
+
+
+
+/* OPPOSans-B */
+@font-face {
+    font-family: "O-B";
+    src: url("./OPPOSans/OPPOSans-B.ttf");
+    font-display: swap;
+  }
+/* Montserrat-H */
+@font-face {
+    font-family: "O-H";
+    src: url("./OPPOSans/OPPOSans-H.ttf");
+    font-display: swap;
+  }
+/* Montserrat-L */
+@font-face {
+    font-family: "O-L";
+    src: url("./OPPOSans/OPPOSans-L.ttf");
+    font-display: swap;
+  }
+/* Montserrat-M */
+@font-face {
+    font-family: "O-M";
+    src: url("./OPPOSans/OPPOSans-M.ttf");
+    font-display: swap;
+  }
+/* Montserrat-R */
+@font-face {
+    font-family: "O-R";
+    src: url("./OPPOSans/OPPOSans-R.ttf");
+    font-display: swap;
+  }
+
+  /*  */
+/* Montserrat-R */
+/* @font-face {
+    font-family: "Barlow-SemiBold";
+    src: url("./OPPOSans/Barlow-SemiBold.ttf");
+    font-display: swap;
+  } */
+/* Montserrat-R */
+/* @font-face {
+    font-family: "MiSans-Regular";
+    src: url("./OPPOSans/MiSans-Regular.ttf");
+    font-display: swap;
+  } */
+
+
