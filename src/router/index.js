@@ -60,6 +60,11 @@ const Router = new VueRouter({
       path: "/Canvas",
       component: () => import("@/views/Canvas"),
     },
+    {
+      name: "Svg",
+      path: "/Svg",
+      component: () => import("@/views/Svg"),
+    },
   ],
 });
 

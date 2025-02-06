@@ -20,6 +20,7 @@
       <router-link :to="{ name: '语音' }" tag="button">audioRecord</router-link>
       <router-link :to="{ name: '地图' }" tag="button">MyMap</router-link>
       <router-link :to="{ name: 'Canvas' }" tag="button">Canvas</router-link>
+      <router-link :to="{ name: 'Svg' }" tag="button">Svg</router-link>
     </div>
     <div class="app-container">
       <router-view></router-view>
