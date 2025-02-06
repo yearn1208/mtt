@@ -65,6 +65,11 @@ const Router = new VueRouter({
       path: "/Svg",
       component: () => import("@/views/Svg"),
     },
+    {
+      name: "Scroll",
+      path: "/Scroll",
+      component: () => import("@/views/Scroll"),
+    },
   ],
 });
 

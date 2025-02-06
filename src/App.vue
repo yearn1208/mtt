@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <div class="app-link">
-      <el-button @click="go">goooo</el-button>
-      <!-- <button @click="goSignaturePad">签名</button> -->
       <router-link :to="{ name: '签名' }" tag="button"
         >SignaturePad</router-link
       >
@@ -21,6 +19,7 @@
       <router-link :to="{ name: '地图' }" tag="button">MyMap</router-link>
       <router-link :to="{ name: 'Canvas' }" tag="button">Canvas</router-link>
       <router-link :to="{ name: 'Svg' }" tag="button">Svg</router-link>
+      <router-link :to="{ name: 'Scroll' }" tag="button">Scroll</router-link>
     </div>
     <div class="app-container">
       <router-view></router-view>
@@ -40,15 +39,6 @@ export default {
   },
   mounted() {},
   methods: {
-    go() {
-      this.$router.push({
-        name: "jodit",
-        query: {
-          a: 1,
-          b: 2,
-        },
-      });
-    },
     goSignaturePad() {
       this.$router.push({
         name: "签名",
@@ -66,7 +56,29 @@ export default {
   text-align: left;
   color: #2c3e50;
   margin: 10px;
+  .app-link {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    background-color: rgb(243, 240, 240);
+    z-index: 9999999999;
+    padding: 10px;
+    button{
+      border-style: none;
+      margin-right: 10px;
+      background-color: rgb(211, 209, 209);
+      min-height: 40px;
+      border-radius: 10px;
+      &:hover{
+        background-color: #ace;
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: 0.4s;
+      }
+    }
+  }
   .app-container {
+    margin: 10px;
     border: 1px #ccc solid;
     padding: 20px;
     height: 100vh;
